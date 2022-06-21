@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="css/style.min.css">
+	<title>Главная</title>
+</head>
+
+<body>
+	<main>
+		<div class="wrapper">
+			<div class="container">
+				<h1 id="title" class="title lock-padding">Заголовок</h1>
+				<p class="text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae voluptatibus quod, dicta
+					perspiciatis
+					voluptatum, corporis laudantium doloremque repellat labore fugiat veniam ex doloribus sed magnam
+					voluptates,
+					veritatis nisi obcaecati enim?</p>
+				<p class="text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae voluptatibus quod, dicta
+					perspiciatis
+					voluptatum, corporis laudantium doloremque repellat labore fugiat veniam ex doloribus sed magnam
+					voluptates,
+					veritatis nisi obcaecati enim?</p>
+				<p class="text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae voluptatibus quod, dicta
+					perspiciatis
+					voluptatum, corporis laudantium doloremque repellat labore fugiat veniam ex doloribus sed magnam
+					voluptates,
+					veritatis nisi obcaecati enim?</p>
+				<a href="#image" class="image popup-link">
+					<img src="img/boom-4680150_960_720.webp" alt="boom">
+				</a>
+				<a href="#popup" class="button popup-link">Нажми на меня</a>
+			</div>
+		</div>
+		<div id="popup" class="popup">
+			<div class="popup__body">
+				<div class="popup__content">
+					<a href="#title" class="popup__close close-popup">x</a>
+					<div class="popup__title">Привет!</div>
+					<div class="popup__text">
+						Да, это попап! Круто, да?
+					</div>
+					<a href="#popup_2" class="popup__link-next popup-link">А тут второй попап</a>
+				</div>
+			</div>
+		</div>
+		<div id="popup_2" class="popup">
+			<div class="popup__body">
+				<div class="popup__content">
+					<a href="#title" class="popup__close close-popup">x</a>
+					<div class="popup__text">
+						О! Да это же второй попап! Круто, да?
+					</div>
+				</div>
+			</div>
+		</div>
+		<div id="image" class="popup">
+			<div class="popup__body">
+				<div class="popup__content popup__content_image">
+					<a href="#title" class="popup__close close-popup">x</a>
+					<div class="popup__image">
+						<img src="img/boom-4680150_960_720.webp" alt="boom">
+					</div>
+				</div>
+			</div>
+		</div>
+	</main>
+	<script src='js/app.min.js'> </script>
+</body>
+
+</html>
